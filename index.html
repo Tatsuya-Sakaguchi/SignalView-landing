@@ -13,7 +13,7 @@
       line-height: 1.7;
     }
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
       background: white;
       padding: 40px;
@@ -33,14 +33,40 @@
     p {
       margin-bottom: 16px;
     }
-    .lang-title {
-      margin-top: 30px;
+    .pricing-box {
+      background: #eef4ff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      border-left: 4px solid #1a73e8;
+    }
+    .footer-links {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+    }
+    .footer-links a {
+      margin: 0 12px;
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 28px;
+      background: #1a73e8;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
       font-weight: bold;
-      color: #555;
     }
   </style>
 </head>
 <body>
+
   <div class="container">
     <h1>SignalView AI</h1>
     <p>市場データの可視化と、AI によるチャート分析サポートを提供するオンラインツールです。</p>
@@ -56,25 +82,28 @@
       データ可視化と一般的な市場理解に特化しています。
     </p>
 
-    <h2>Service Description (English)</h2>
-    <p>
-      SignalView AI is an online analytics tool that visualizes stock and market data.  
-      It provides educational and informational insights using AI to help users  
-      understand chart patterns and overall market sentiment.
-    </p>
-    <p>
-      The service does not provide investment advice or trading instructions.  
-      It focuses solely on data visualization and general market education.
-    </p>
+    <h2>料金プラン</h2>
+    <div class="pricing-box">
+      <p><strong>Freeプラン：</strong> ¥0 / 月</p>
+      <p><strong>Proプラン：</strong> ¥1,980 / 月（税込）</p>
+      <p><strong>Premiumプラン：</strong> ¥1,980 / 月（税込・リリース記念価格）</p>
+      <p>※すべて月額課金です。</p>
+    </div>
+
+    <h2>アプリ本体はこちら</h2>
+    <p>実際の解析・決済は以下のアプリ内で行われます。</p>
+    <a href="https://signalview-il7a.onrender.com/" class="cta-btn">アプリを開く</a>
 
     <h2>Contact</h2>
     <p>Email: sakaguchitatsuyamk@gmail.com</p>
     <p>Phone: +81 90 9872 2920</p>
   </div>
-  <div style="text-align:center; margin-top:40px; font-size:14px;">
+
+  <div class="footer-links">
     <a href="/SignalView-landing/legal/tokushoho.html">特定商取引法に基づく表記</a>
-    <a href="/SignalView-landing/legal/terms.html">   利用規約</a>
-    <a href="/SignalView-landing/privacy/privacy.html">   プライバシーポリシー</a>
+    <a href="/SignalView-landing/legal/terms.html">利用規約</a>
+    <a href="/SignalView-landing/legal/privacy.html">プライバシーポリシー</a>
   </div>
+
 </body>
 </html>
